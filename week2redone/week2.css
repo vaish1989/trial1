@@ -1,0 +1,117 @@
+*{
+	box-sizing: border-box;
+}
+
+h1{
+	font-family: ubuntu;
+	color: #000;
+	text-align: center;
+}
+
+body{
+	background-color: red;
+}
+
+p{
+	padding: 10px;
+	margin: 0;
+}
+
+.container{
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+
+}
+
+section{
+	border: 1px solid black;
+	background-color: yellow;
+	width: 100%;
+	height: 250px;
+	font-family: sans-serif;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken{
+	border: 1px solid black;
+	color: pink;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: sans-serif;
+	]font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+	background-color: grey;	
+}
+
+#beef{
+	border: 1px solid black;
+	color: pink;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: sans-serif;
+	]font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+	background-color: grey;	
+}
+
+#sushi{
+	border: 1px solid black;
+	color: pink;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: sans-serif;
+	]font-weight: bold;
+	font-size: 125%;
+	padding: 5px;
+	background-color: grey;	
+}
+
+.row{
+	width: 100%;
+}
+
+/*desktop view*/
+
+@media (min-width: 992px){
+	.col-lg-4{
+		float: left;
+	}
+	.col-lg-4{
+		width: 33.33%;
+	}
+}
+
+/*tablet view*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-4, .col-md-6, .col-md-12{
+		float: left;
+	}
+	.col-md-4{
+		width: 33.33%;
+	}
+
+	.col-md-6{
+		width: 50%;
+	}
+
+	.col-md-12{
+		width: 100%;
+	}
+}
+
+/*mobile view*/
+@media (max-width: 767px){
+	/*---automatically occupy whol available width*/
+}
